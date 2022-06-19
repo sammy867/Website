@@ -1,0 +1,137 @@
+.Intro{
+    display:flex;
+    height: 80vh;
+    margin-top:6rem;
+}
+
+/* left side styling*/
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction:column;
+    gap: 2rem;
+    
+}
+
+.i-name{
+    display: flex;
+    flex-direction:column;
+    gap: 0.25rem;
+}
+
+.i-name>:nth-child(1)
+{
+ color: var(--black);
+ font-weight: bold;
+ font-size: 3rem;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.i-name>:nth-child(2)
+{
+    color:var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.i-name>:nth-child(3)
+{
+flex: 1;
+font-weight: bold;
+font-size: 17px;
+color: var(--gray);
+margin-top: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.i-button{
+    width: 8rem;
+    height: 3rem;
+}
+.i-icons>*{
+    transform: scale(0.5);
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
+.i-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+   
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right > :nth-child(1) {
+    transform: scale(0.67);
+    left: -7%;
+    top: -8%;
+  }
+
+  .i-right > :nth-child(2) {
+    top: -5rem;
+    transform: scale(0.68);
+    left: -2rem;
+  }
+
+
+  .i-right > :nth-child(3) {
+    transform: scale(1.36);
+    left: 30%;
+    top: 1rem; 
+  }
+
+  .i-right > :nth-child(4) {
+      transform: scale(0.6);
+      top: -19%;
+      left: -16%;
+      border-radius: 50%;
+      padding: 0;
+  }
+
+  .blur{
+      position: absolute;
+      width: 22rem;
+      height: 14rem;
+      border-radius: 50%;
+      background: #edd0ff;
+      z-index: -8;
+      top: -18%;
+      left: 56%;
+      filter: blur(72px);
+  }
+
+  @media screen and (max-width: 480px){
+    .Intro{
+        flex-direction: column;
+        height: 74rem;
+        gap: 2rem;
+    }
+    .i-right{
+        transform: scale(0.6);
+        left: -5rem;
+    }
+    .i-right .blur{
+        display: none;
+    }
+    .floating-div:nth-of-type(1){
+        top: -7rem!important;
+    }
+  }
+
+  
