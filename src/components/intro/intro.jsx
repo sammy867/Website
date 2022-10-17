@@ -17,10 +17,6 @@ import { motion } from 'framer-motion'
 
 const Intro = () => {
     const transition = {duration : 1, type: 'spring' }
-
-
-
-
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode; 
  return(
