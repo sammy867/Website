@@ -12,7 +12,7 @@ import Twitter from '@iconscout/react-unicons/icons/uil-twitter'
 const Footer = () => {
   return (
     <div className="footer">
-        <img src={Wave} alt= '' style={{width: "100%"}} />
+        <img src={Wave} alt= '' style={{width: "100%", height: "100%"}} />
         <div className="f-content">
           <span>samuelezebuiro@gmail.com</span>
           <div className="f-icons">
