@@ -5,6 +5,10 @@ import Insta from '@iconscout/react-unicons/icons/uil-instagram'
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
 import Github from '@iconscout/react-unicons/icons/uil-github'
 import Twitter from '@iconscout/react-unicons/icons/uil-twitter'
+
+ const date = new Date();
+ const currentDate = date.getFullYear();
+ const warn = "Copyright ©"
 const Footer = () => {
   return (
     <div className="footer">
@@ -26,6 +30,9 @@ const Footer = () => {
             </a>
           </div>
         
+        </div>
+        <div className = "frisby">
+          <span className='vtu'>{warn + " "+ currentDate }</span>
         </div>
     </div>
   

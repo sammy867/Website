@@ -26,9 +26,6 @@ const Contact = () => {
 
 
 
-
-
-
   return (
    <div className="contact-form">
     <div className="w-left">
