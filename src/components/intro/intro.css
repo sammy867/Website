@@ -117,6 +117,15 @@
   filter: blur(72px);
 }
 
+@keyframes left-to-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 @keyframes breathe {
   0% {
     transform: scale(1.08);

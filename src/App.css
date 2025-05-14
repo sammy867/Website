@@ -41,6 +41,7 @@
   cursor: pointer;
   color: var(--orange);
   border: 1px solid var(--orange);
+  transition: 0.5s ease-in;
 }
 
 @media screen and (max-width: 480px) {
