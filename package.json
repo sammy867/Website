@@ -38,7 +38,6 @@
     "windicss": "^3.5.3",
     "youtube-audio-server": "^2.8.2",
     "z-amp-core": "^1.2.16",
-    "z-crypt": "^1.0.5",
     "zustand": "^4.0.0-rc.1"
   },
   "scripts": {
