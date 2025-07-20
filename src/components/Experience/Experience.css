@@ -46,3 +46,10 @@
 .achievement span:nth-of-type(2){
     color:var(--orange);
 }
+
+@media screen and (max-width: 480px){
+    .experience{
+        margin-top: 20rem;
+        padding: 3px;
+    }
+}
