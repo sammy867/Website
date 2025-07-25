@@ -51,5 +51,6 @@
     .experience{
         margin-top: 20rem;
         padding: 3px;
+        gap: 3.5rem;
     }
 }
