@@ -94,6 +94,13 @@
         padding: 0;
         gap: 5rem;
     }
+    .awesome span:nth-of-type(1){
+        width: 99%;
+    }
+     .awesome span:nth-of-type(2){
+        width:90%;
+        font-size: 2.8em;
+    }
     .w-right{
         display: flex;
         align-items: flex-start;

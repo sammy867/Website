@@ -16,7 +16,7 @@ const Works = () => {
     <div className="work">
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>
-          Works for All these
+          Works For All These
         </span>
         <span>Brands & Clients</span>
         <span>
