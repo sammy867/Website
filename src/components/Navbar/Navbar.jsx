@@ -1,4 +1,5 @@
 import React from 'react'
+import { ReactTyped } from 'react-typed';
 import './Navbar.css'
 import Toggle from '../Toggle/Toggle';
 import{Link} from 'react-scroll';
@@ -6,7 +7,20 @@ const Navbar = () => {
     return(
         <div className ="n-wrapper">
             <div className = "n-left">
-                <div className = "n-name">Samuel</div>
+                <div className = "n-name">
+                     <ReactTyped
+          className="n-name"
+          strings={[
+            "Samuel",
+            "Ezebuiro",
+            "Chidubem",
+          ]}
+          typeSpeed={40}
+          backSpeed={50}
+          showCursor={false}
+          loop
+        />
+                </div>
                 <Toggle/>
             </div>
 
