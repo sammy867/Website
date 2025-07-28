@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import { ReactTyped } from "react-typed";
 import HeartEmoji from "../../assets/logos/heartemoji.png";
 import Glasses from "../../assets/logos/glasses.png";
 import Humble from "../../assets/logos/humble.png";
@@ -20,8 +21,23 @@ const Services = () => {
       {/* always remember to break sentences */}
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>Services</span>
-        <span>
+                       <ReactTyped
+                  className="n-name"
+                  strings={[
+                    "Services",
+                    "Provisions",
+                  ]}
+                  typeSpeed={40}
+                  backSpeed={50}
+                  showCursor={false}
+                  loop
+                />
+                <motion.div
+                 initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: false }}
+  transition={{ duration: 0.6, ease: "easeOut" }}>
+                        <span>
           I architect end‑to‑end digital solutions by combining deep Salesforce
           OmniStudio expertise—designing guided, multi‑step customer journeys
           with OmniScripts, crafting reusable, context‑aware UI components via
@@ -39,6 +55,8 @@ const Services = () => {
           scalable digital journeys that deliver consistent performance and
           drive lasting ROI.
         </span>
+                </motion.div>
+  
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
