@@ -1,6 +1,5 @@
 import React from "react";
 import "./Services.css";
-import { ReactTyped } from "react-typed";
 import HeartEmoji from "../../assets/logos/heartemoji.png";
 import Glasses from "../../assets/logos/glasses.png";
 import Humble from "../../assets/logos/humble.png";
@@ -94,9 +93,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"Data Analyst"}
+            heading={"Platform Developer"}
             detail={
-              "R, Microsoft Power BI, Microsoft Excel,Shiny,ggplot2,tableau,Python"
+              "SalesforceCLI, VSCode, Lightning Web Components and Aura Frameworks,Dev Console,Data Loader,APEX"
             }
           />
         </motion.div>
