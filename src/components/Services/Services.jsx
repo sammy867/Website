@@ -21,17 +21,7 @@ const Services = () => {
       {/* always remember to break sentences */}
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-                       <ReactTyped
-                  className="n-name"
-                  strings={[
-                    "Services",
-                    "Provisions",
-                  ]}
-                  typeSpeed={40}
-                  backSpeed={50}
-                  showCursor={false}
-                  loop
-                />
+                       <span>Services</span>
                 <motion.div
                  initial={{ opacity: 0, y: 20 }}
   whileInView={{ opacity: 1, y: 0 }}
