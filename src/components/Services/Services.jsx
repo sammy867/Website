@@ -25,7 +25,7 @@ const Services = () => {
                  initial={{ opacity: 0, y: 20 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: false }}
-  transition={{ duration: 0.6, ease: "easeOut" }}>
+  transition={{ duration: 3, ease: "easeOut" }}>
                         <span>
           I architect end‑to‑end digital solutions by combining deep Salesforce
           OmniStudio expertise—designing guided, multi‑step customer journeys

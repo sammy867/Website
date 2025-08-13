@@ -1,10 +1,10 @@
 import React from "react";
 import "./Works.css";
 import Upwork from "../../assets/logos/Upwork.png";
-import Fiverr from "../../assets/logos/fiverr.png";
-import Amazon from "../../assets/logos/amazon.png";
-import Shopify from "../../assets/logos/Shopify.png";
-import Facebook from "../../assets/logos/Facebook.png";
+import ranger from "../../assets/logos/ranger.png";
+import salesforce from "../../assets/logos/salesforce.png";
+import trailhead from "../../assets/logos/trailhead.png";
+import skyfilabs from "../../assets/logos/skyfilabs.png";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
@@ -19,6 +19,11 @@ const Works = () => {
           Works For All These
         </span>
         <span>Brands & Clients</span>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 3, ease: "easeOut" }}>
         <span>
           I’ve architected responsive ReactJS SPAs and pixel-perfect web apps at
           Side Hustle; executed complex data pipelines—wrangling, modeling,
@@ -29,6 +34,7 @@ const Works = () => {
           journeys with OmniScripts, FlexCards, DataRaptors, and Integration
           Procedures to optimize workflows and drive measurable ROI.
         </span>
+        </motion.div>
         <a href="https://www.linkedin.com/in/samuel-ezebuiro-b36896237/">
           <button className="button s-button">Hire Me</button>
         </a>
@@ -49,16 +55,16 @@ const Works = () => {
             <img src={Upwork} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={ranger} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={salesforce} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={trailhead} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={skyfilabs} alt="" />
           </div>
         </motion.div>
         <div className="w-backCircle blueCircle"></div>

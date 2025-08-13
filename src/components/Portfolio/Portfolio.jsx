@@ -1,6 +1,11 @@
 import React from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Dashboard from "../../assets/Dashboard.jpg";
+import flow from "../../assets/flow.jpg";
+import Win from "../../assets/Win.jpg";
+import config from "../../assets/config.jpg";
+import Insurance from "../../assets/Insurance.jpg";
 import Almost from "../../assets/almost.png";
 import Retention from "../../assets/logos/retention.png";
 import Omniscript from "../../assets/logos/Omniscript.png";
@@ -27,6 +32,21 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <img src={Almost} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Dashboard} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={flow} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Win} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={config} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Insurance} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Retention} alt="" />
