@@ -11,6 +11,13 @@
   display: flex;
   gap: 2rem;
 }
+
+.toggles {
+  position: absolute;
+  margin-top: 0.9rem;
+  margin-left: 9rem;
+}
+
 .n-name {
   font-size: 1.8rem;
   font-weight: 600;

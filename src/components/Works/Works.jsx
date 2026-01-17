@@ -25,14 +25,7 @@ const Works = () => {
           viewport={{ once: false }}
           transition={{ duration: 3, ease: "easeOut" }}>
         <span>
-          I’ve architected responsive ReactJS SPAs and pixel-perfect web apps at
-          Side Hustle; executed complex data pipelines—wrangling, modeling,
-          visualization, and dashboard automation—in collaboration with
-          Skyfi Labs; delivered custom, interactive data‑driven solutions for
-          freelance clients; and now, as a Nigeria‑based Salesforce OmniStudio
-          developer for a UK firm, I build high‑performance, low‑code customer
-          journeys with OmniScripts, FlexCards, DataRaptors, and Integration
-          Procedures to optimize workflows and drive measurable ROI.
+      I’ve built responsive React-based applications, delivered data-driven solutions across client and freelance projects, and collaborated on real-world problem solving that demanded clarity and scale. Today, as a Salesforce CPQ, OmniStudio, and Platform Developer working with UK-based and international teams, I design scalable revenue and customer experience solutions. From complex CPQ architectures to high-performance OmniStudio journeys using OmniScripts, FlexCards, DataRaptors, and Integration Procedures, I turn business complexity into clean, efficient Salesforce systems that protect revenue and drive growth.
         </span>
         </motion.div>
         <a href="https://www.linkedin.com/in/samuel-ezebuiro-b36896237/">

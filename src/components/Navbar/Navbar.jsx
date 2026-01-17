@@ -19,9 +19,11 @@ const Navbar = () => {
           backSpeed={50}
           showCursor={false}
           loop
-        />
+          />
                 </div>
-                <Toggle/>
+            </div>
+            <div className="toggles">
+          <Toggle/>
             </div>
 
                 <div className = "n-right">

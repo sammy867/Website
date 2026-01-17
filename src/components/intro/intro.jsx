@@ -29,18 +29,9 @@ const Intro = () => {
           <span>Ezebuiro Samuel .C.</span>
 
           <span>
-            A dynamic technologist and data analyst fluent in R, PowerBI, and
-            Excel, I leverage ReactJS to build responsive front‑end experiences
-            and bring deep expertise in Salesforce OmniStudio—mastering
-            FlexCards, OmniScripts, Integration Procedures, and DataRaptors to
-            architect real‑time, enterprise‑scale customer journeys that boost
-            efficiency by up to 60%. Complemented by my prowess in AI agent
-            development—designing GPT‑powered bots and Einstein‑backed
-            predictive models that deflect 85% of routine inquiries and cut
-            handle times by 25%—I deliver end‑to‑end solutions that accelerate
-            digital transformation, elevate engagement, and drive measurable
-            ROI, making me an irresistible partner for forward‑thinking clients
-            and recruiters.
+            A Salesforce CPQ specialist, OmniStudio developer, and Platform Developer, I build scalable, rule-driven solutions that turn complex pricing, configuration, and approvals into smooth, revenue-ready processes. I design clean CPQ architectures using Product Rules, Price Rules, Discount Schedules, Advanced Approvals, and multi-dimensional pricing, while leveraging OmniStudio tools like FlexCards, OmniScripts, DataRaptors, and Integration Procedures to deliver fast, intuitive customer experiences.
+
+With a strong front-end background in modern JavaScript and React and a growing focus on Revenue Cloud, I operate at the intersection of business logic, automation, and user experience. I don’t just implement Salesforce, I engineer systems that scale, protect revenue, and help businesses move faster with confidence.
           </span>
         </div>
         <a href="https://www.linkedin.com/in/samuel-ezebuiro-b36896237/">
@@ -100,7 +91,7 @@ const Intro = () => {
           <FloatingDiv
             image={thumbup}
             txt1="Salesforce"
-            txt2="Omnistudio Developer"
+            txt2="Platform Developer"
           />
         </motion.div>
         {/*blur section*/}

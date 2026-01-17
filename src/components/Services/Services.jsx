@@ -4,7 +4,7 @@ import HeartEmoji from "../../assets/logos/heartemoji.png";
 import Glasses from "../../assets/logos/glasses.png";
 import Humble from "../../assets/logos/humble.png";
 import Card from "../Card/Card";
-import Resume from "./Samuel_Ezebuiro_Resume.PDF";
+import Resume from "./Samuel_Ezebuiro_Salesforce_CPQ_Optimized_Resume.docx";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
@@ -27,22 +27,7 @@ const Services = () => {
   viewport={{ once: false }}
   transition={{ duration: 3, ease: "easeOut" }}>
                         <span>
-          I architect end‑to‑end digital solutions by combining deep Salesforce
-          OmniStudio expertise—designing guided, multi‑step customer journeys
-          with OmniScripts, crafting reusable, context‑aware UI components via
-          FlexCards, and orchestrating real‑time, low‑code integrations through
-          declarative Integration Procedures—with front‑end prowess in ReactJS
-          to build modular, responsive web and mobile applications, and data
-          analysis skills in Power BI and Excel to create interactive dashboards
-          and automated workflows that surface actionable insights.
-          <br />I also enhance those OmniStudio solutions by configuring
-          DataRaptor and Data Mapper transformations for precise data handling,
-          applying conditional rendering in FlexCards for personalized
-          experiences, managing package versions and deployments via
-          Vlocity-managed packages, and implementing error handling and
-          telemetry in Integration Procedures—ensuring robust, maintainable, and
-          scalable digital journeys that deliver consistent performance and
-          drive lasting ROI.
+        I provide end-to-end Salesforce solutions focused on helping businesses sell smarter, scale faster, and protect revenue. As a Salesforce CPQ specialist, I design scalable pricing, configuration, discounting, and approval frameworks that eliminate deal errors and accelerate sales cycles. I complement this with deep OmniStudio expertise, building guided, intuitive experiences using OmniScripts, FlexCards, DataRaptors, and Integration Procedures that simplify complex processes and drive user adoption. As a Salesforce Platform Developer, I deliver secure, maintainable solutions that grow with the organization, while my expanding focus on Revenue Cloud enables me to align pricing, contracts, and approvals into a cohesive revenue engine. Backed by a strong front-end foundation in modern JavaScript and React, I bring a user-first mindset to every solution, ensuring systems are not only powerful but intuitive. I don’t just implement Salesforce, I engineer scalable systems that support long-term business growth.
         </span>
                 </motion.div>
   
